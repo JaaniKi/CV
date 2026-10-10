@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[55324,["/CV/_next/static/chunks/5bdab5b20bb81504.js","/CV/_next/static/chunks/d708774350e54d3c.js"],"ViewportBoundary"]
+4:I[55324,["/CV/_next/static/chunks/5bdab5b20bb81504.js","/CV/_next/static/chunks/d708774350e54d3c.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+0:{"buildId":"PZ4_anFxpSv9SPDQSYAoQ","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:[["$","title","0",{"children":"Jaani Kivivasara"}],["$","meta","1",{"name":"description","content":"BSc in Computer Science, now pursuing an MSc. Majoring in software, minoring in artificial intelligence."}],["$","meta","2",{"property":"og:title","content":"Jaani Kivivasara"}],["$","meta","3",{"property":"og:description","content":"BSc in Computer Science, now pursuing an MSc. Majoring in software, minoring in artificial intelligence."}],["$","meta","4",{"property":"og:type","content":"website"}],["$","meta","5",{"name":"twitter:card","content":"summary"}],["$","meta","6",{"name":"twitter:title","content":"Jaani Kivivasara"}],["$","meta","7",{"name":"twitter:description","content":"BSc in Computer Science, now pursuing an MSc. Majoring in software, minoring in artificial intelligence."}]]
