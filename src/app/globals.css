@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-plex-sans), system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-tint-1: var(--tint-1);
+  --color-tint-2: var(--tint-2);
+  --color-tint-3: var(--tint-3);
+}
+
+:root {
+  --paper: #f7f6f2;
+  --ink: #1c1b19;
+  --muted: #55534e;
+  --faint: #86837b;
+  --rule: #e0ddd4;
+  --accent: #2f5d4e;
+  --tint-1: #dfe8e2;
+  --tint-2: #eee3d6;
+  --tint-3: #e0e4ec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #151514;
+    --ink: #ebeae5;
+    --muted: #aaa79f;
+    --faint: #7a776f;
+    --rule: #2d2c29;
+    --accent: #8dbfa8;
+    --tint-1: #1e2a25;
+    --tint-2: #2a231c;
+    --tint-3: #1e232b;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tailwind v4 antaa painikkeille oletuskursorin; palautetaan osoitin klikattaviin */
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}

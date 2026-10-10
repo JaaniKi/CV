@@ -1,0 +1,128 @@
+export const t = {
+  fi: {
+    nav: {
+      about: "Tietoa",
+      skills: "Taidot",
+      projects: "Projektit",
+      experience: "Koulutus ja kokemus",
+      contact: "Yhteystiedot",
+    },
+    hero: {
+      intro:
+        "Tietojenkäsittelytieteiden kandidaatti ja maisteriopiskelija. Pääaineena ohjelmistot, sivuaineena tekoäly.",
+    },
+    about: {
+      title: "Tietoa",
+      bio: [
+        "Olen tietojenkäsittelytieteiden kandidaatti, ja kandidaatin tutkinnossa sivuaineenani oli kauppatieteet. Jatkan nyt maisteriopintoja, joissa pääaineeni on ohjelmistot ja sivuaineeni tekoäly. Minua kiinnostaa erityisesti se, miten tekoäly saadaan toimimaan luotettavasti osana oikeaa ohjelmistoa.",
+        "Työskentelen mielelläni web-sovellusten parissa, sillä niissä pääsee suunnittelemaan kokonaisuuden käyttöliittymästä palvelinpuolelle asti. Pidän ohjelmistojen suunnittelusta ja luovista ratkaisuista, ja nautin yhteisistä projektitöistä.",
+      ],
+    },
+    skills: {
+      title: "Taidot",
+      categories: {
+        languages: "Kielet",
+        frontend: "Frontend ja käyttöliittymät",
+        backend: "Backend",
+        ai: "Tekoäly ja data",
+        databases: "Tietokannat",
+        cloud: "Pilvi ja DevOps",
+        tools: "Työkalut ja menetelmät",
+      },
+    },
+    projects: {
+      title: "Projektit",
+      viewDemo: "Demo",
+      viewCode: "Lähdekoodi",
+      openInNewTab: "Avaa uudessa välilehdessä",
+      close: "Sulje",
+      techStack: "Teknologiat",
+      year: "Vuosi",
+      role: "Rooli",
+      contributions: "Oma osuuteni",
+      minor: "Muita projekteja",
+      system: "Järjestelmä",
+      links: "Linkit",
+      details: "Lisätiedot",
+      video: "Video",
+      liveDemo: "Live-demo",
+      showMedia: "Näytä media",
+      previous: "Edellinen",
+      next: "Seuraava",
+    },
+    experience: {
+      title: "Koulutus ja kokemus",
+      work: "Työkokemus",
+      education: "Koulutus",
+    },
+    contact: {
+      title: "Yhteystiedot",
+      subtitle: "Vastaan mielelläni työ- ja harjoittelupaikkoja koskeviin viesteihin.",
+      email: "Sähköposti",
+      github: "GitHub",
+    },
+  },
+  en: {
+    nav: {
+      about: "About",
+      skills: "Skills",
+      projects: "Projects",
+      experience: "Education & experience",
+      contact: "Contact",
+    },
+    hero: {
+      intro:
+        "BSc in Computer Science, now pursuing an MSc. Majoring in software, minoring in artificial intelligence.",
+    },
+    about: {
+      title: "About",
+      bio: [
+        "I hold a Bachelor's degree in Computer Science, with a minor in business studies. I'm now a Master's student, majoring in software with a minor in artificial intelligence. I'm especially interested in making AI work reliably as part of real software.",
+        "I enjoy building web applications because they let me design the whole picture, from the user interface to the server side. I like software design and creative solutions, and I enjoy working on projects together with others.",
+      ],
+    },
+    skills: {
+      title: "Skills",
+      categories: {
+        languages: "Languages",
+        frontend: "Frontend & UI",
+        backend: "Backend",
+        ai: "AI & data",
+        databases: "Databases",
+        cloud: "Cloud & DevOps",
+        tools: "Tools & methods",
+      },
+    },
+    projects: {
+      title: "Projects",
+      viewDemo: "Demo",
+      viewCode: "Source",
+      openInNewTab: "Open in new tab",
+      close: "Close",
+      techStack: "Tech stack",
+      year: "Year",
+      role: "Role",
+      contributions: "My contributions",
+      minor: "Other projects",
+      system: "The system",
+      links: "Links",
+      details: "Details",
+      video: "Video",
+      liveDemo: "Live demo",
+      showMedia: "Show media",
+      previous: "Previous",
+      next: "Next",
+    },
+    experience: {
+      title: "Education & experience",
+      work: "Work experience",
+      education: "Education",
+    },
+    contact: {
+      title: "Contact",
+      subtitle: "Happy to hear about job and internship opportunities.",
+      email: "Email",
+      github: "GitHub",
+    },
+  },
+} as const;
